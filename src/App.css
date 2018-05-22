@@ -1,0 +1,86 @@
+.projectCardContainer{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+	width: 80%;
+  
+}
+
+.pageBody{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width:100%;
+}
+
+.headerMain{
+	height: 25px;
+}
+
+.filterSection {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+}
+
+.projectCard{
+  padding: 5px;
+  border: 1px solid black;
+  margin: 3px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+h3{
+  margin-bottom: 0;
+}
+
+.leftModalColumn{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	width: 45%;
+	margin: 7px;
+}
+
+.modalBody{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.modalNotes{
+	width: 80%;
+	margin-left: 38px;
+	height: 60px;;
+}
+
+.bottomModal{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch;
+	width: 90%;
+}
+
